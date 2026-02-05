@@ -1,0 +1,4 @@
+* Notes
+** Resources
+- [[https://stackoverflow.com/questions/35978151/implementing-a-quadtree-using-arrays][Impelementing quadtrees using arrays]]
+- [[https://www.researchgate.net/publication/269191939_The_PH-Tree_-_A_Space-Efficient_Storage_Structure_And_Multi-Dimensional_Index][The PH-Tree – A Space-Efﬁcient Storage Structure and Multi-Dimensional]]
