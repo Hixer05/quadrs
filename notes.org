@@ -1,4 +1,17 @@
-* Notes
-** Resources
+* Resources
 - [[https://stackoverflow.com/questions/35978151/implementing-a-quadtree-using-arrays][Impelementing quadtrees using arrays]]
 - [[https://www.researchgate.net/publication/269191939_The_PH-Tree_-_A_Space-Efficient_Storage_Structure_And_Multi-Dimensional_Index][The PH-Tree – A Space-Efﬁcient Storage Structure and Multi-Dimensional]]
+
+* Implementation
+This library aims to implement intensionally linearized _spatial_ d-trees in Rust.
+** Vector data-type
+The vector module provides an interface for vectorial data plus a default vector implementation to test out the library.
+DefaultVector is a singleton tuble containing a d-sized array.
+*** NEXT Add Area/Volume/Space abstraction
+** Naive tree
+Naive tree is a estensional _spatial_ d-tree
+*** Use Area/Volume/Space abstraction
+*** Implement insertion splitting logic
+*** Implement constructor
+[[file:src/naive.rs::64][Related FIXME 1]]
+[[file:src/naive.rs::58][Related FIXME 2]]

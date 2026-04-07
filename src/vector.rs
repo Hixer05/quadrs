@@ -2,6 +2,7 @@ use std::ops::{Add, Deref, Mul};
 
 pub trait Vectorial: Sized + Add<Output = Self> + Mul<f64, Output = Self> + Clone + Copy {
     fn within(&self, _: (Self, Self)) -> bool; // REVIEW should this be part of the interface?
+    fn quarter(&self, _: (Self, Self)) -> (Self, Self);
 }
 
 #[derive(Clone, Copy, Debug)]
@@ -38,6 +39,10 @@ impl<const N: usize> Vectorial for DefaultVector<N> {
             }
         }
         true
+    }
+
+    fn quarter(&self, _: (Self, Self)) -> (Self, Self) {
+        todo!()
     }
 }
 
